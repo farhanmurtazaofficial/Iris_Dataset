@@ -34,7 +34,7 @@ y_encoded = le.fit_transform(y)
 """**Train/test split (80/20)**"""
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y_encoded, test_size=0.1, random_state=21, stratify=y_encoded
+    X, y_encoded, test_size=0.2, random_state=21, stratify=y_encoded
 )
 
 """**Train classifier**"""
